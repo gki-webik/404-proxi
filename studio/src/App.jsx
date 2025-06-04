@@ -10,47 +10,47 @@ const LanguageContext = createContext();
 const translations = {
   ru: {
     change_language: "Сменить язык",
-    mainTitle: "Мобильные прокси премиум-класса",
+    mainTitle: "Мобильные прокси премиум класса",
     mainDescription:
       "IPv4 из мобильных сетей операторов США, Европы, Азии и других регионов.",
     mainDescription2:
       "Никаких дата-центров — только чистые, высокоранжированные IP с мобильной репутацией.",
     mainDescription3:
       "Возможна выдача прокси по API — удобно для автоматизации и работы команд.",
-    lineText: "Поддержка всех популярных протоколов:",
-    h2Block2: "🔍 Гибкая фильтрация и точный выбор IP:",
+    lineText: "Поддержка всех популярных протоколов",
+    h2Block2: "Гибкая фильтрация и точный выбор IP",
     block2Text1: "По ZIP-коду",
     block2Text2: "По мобильному оператору",
     block2Text3: "По стране, региону и городу",
-    block2Text4: "По типу подключения (4G / 5G)",
+    block2Text4: "По типу подключения mobile WiFi",
     block2Text5: "По скорости, ротации и другим параметрам",
-    block3Text1: "📈 Решения для бизнеса и профессионалов:",
+    block3Text1: "Решения для бизнеса и профессионалов:",
     block3Text2: "Сбор данных, scraping и антидетект-работа",
     block3Text3: "Мультиаккаунтинг и SMM",
     block3Text4: "Аналитика и трекинг рекламы",
     block3Text5: "SEO и проверка поисковой выдачи",
     block3Text6: "A/B тестирование и мониторинг цен",
     block3Text7: "Анонимный доступ и защита трафика",
-    block4Text1: "🤝 Партнёрская программа — 25%",
+    block4Text1: "Партнёрская программа — 25%",
     block4Text2: "Зарабатывайте 25% с каждой оплаты приглашённых клиентов.",
     block4Text3:
       "Выплаты без задержек, прозрачная статистика, высокая конверсия.",
-    block5Text1: "💎 Почему выбирают нас:",
+    block5Text1: "Почему выбирают нас:",
     block5Text2: "IP с высоким уровнем доверия",
     block5Text3: "Настоящая мобильная репутация — без банов и капч",
     block5Text4: "Естественное поведение в сети",
     block5Text5: "Гибкая настройка ротации",
     block5Text6: "Поддержка всех стран и уровней трафика",
-    block6Text1: "💸 Честная модель оплаты",
+    block6Text1: "Честная модель оплаты",
     block6Text2:
       "Вы платите только за трафик — никаких подписок или скрытых сборов.",
     block6Text3:
       "Цена за 1 ГБ зависит от региона и объёма — уточняйте при подключении.",
-    block7Text1: "🌎 Максимальный геоохват",
+    block7Text1: "Максимальный геоохват",
     block7Text2: "Работаем со всеми странами Tier 1, Tier 2, Tier 3",
     block7Text3: "США, Канада, ЕС, Азия, Латинская Америка и другие.",
     block7Text4: "Прокси доступны по запросу в более чем 100 странах мира.",
-    block8Text1: "🎁 Бесплатный тест-доступ",
+    block8Text1: "Бесплатный тест-доступ",
     block8Text2:
       "Протестируйте наш сервис бесплатно — оцените скорость, стабильность и качество IP до покупки.",
     privacyPolicy: "Политика Конфиденциальности",
@@ -64,41 +64,41 @@ const translations = {
       "No datacenters — only clean, high-ranking IPs with genuine mobile reputation.",
     mainDescription3:
       "Proxy access via API is available — perfect for automation and team workflows.",
-    lineText: "Support for all popular protocols:",
-    h2Block2: "🔍 Flexible filtering and precise IP selection:",
+    lineText: "Support for all popular protocols",
+    h2Block2: "Flexible filtering and precise IP selection",
     block2Text1: "By ZIP code",
     block2Text2: "By mobile carrier",
     block2Text3: "By country, region, and city",
-    block2Text4: "By connection type (4G / 5G)",
+    block2Text4: "By connection type mobile WiFi",
     block2Text5: "By speed, rotation settings, and other parameters",
-    block3Text1: "📈 Solutions for Businesses & Professionals:",
+    block3Text1: "Solutions for Businesses & Professionals:",
     block3Text2: "Data scraping & anti-detect operations",
     block3Text3: "Multi-accounting & SMM",
     block3Text4: "Ad analytics & tracking",
     block3Text5: "SEO & SERP checks",
     block3Text6: "A/B testing & price monitoring",
     block3Text7: "Anonymous browsing & traffic protection",
-    block4Text1: "🤝 Affiliate Program — 25%",
+    block4Text1: "Affiliate Program — 25%",
     block4Text2: "Earn 25% from every payment made by referred clients.",
     block4Text3:
       "Instant payouts, transparent stats, and high conversion rates.",
-    block5Text1: "💎 Why Choose Us:",
+    block5Text1: "Why Choose Us:",
     block5Text2: "High-trust IPs",
     block5Text3: "True mobile reputation — no bans or captchas",
     block5Text4: "Natural online behavior",
     block5Text5: "Flexible rotation settings",
     block5Text6: "Global coverage and scalable traffic options",
-    block6Text1: "💸 Fair Pricing Model",
+    block6Text1: "Fair Pricing Model",
     block6Text2:
       "You pay only for the data you use — no subscriptions, no hidden fees.",
     block6Text3:
       "The price per GB depends on region and volume — contact us for details.",
-    block7Text1: "🌎 Maximum Geo-Coverage",
+    block7Text1: "Maximum Geo-Coverage",
     block7Text2: "We support all Tier 1, Tier 2, and Tier 3 countries:",
     block7Text3: "USA, Canada, EU, Asia, Latin America, and more.",
     block7Text4:
       "Proxies available on request in over 100 countries worldwide.",
-    block8Text1: "🎁 Free Trial Access",
+    block8Text1: "Free Trial Access",
     block8Text2:
       "Test our service for free — experience the speed, stability, and IP quality before you buy.",
     privacyPolicy: "Privacy Policy",
@@ -141,9 +141,9 @@ function LanguageSwitcher() {
             <nav className="navbar navbar-expand-lg">
               <div className="container">
                 {/* Logo Start */}
-                <a className="navbar-brand" href="./">
-                  <img src="images/logo.svg" alt="Logo" />
-                </a>
+                <h2 style={{ whiteSpace: "nowrap", color: "#14daf5" }}>
+                  404 proxy
+                </h2>
                 {/* Logo End */}
 
                 {/* Main Menu Start */}
@@ -368,6 +368,15 @@ function LanguageSwitcher() {
                   <div className="section-title">
                     {/* <h3 className="wow fadeInUp">about agency</h3> */}
                     <h2 className="text-anime-style-2" data-cursor="-opaque">
+                      <img
+                        src="/images/icon-about-agency-3.svg"
+                        style={{
+                          marginRight: "10px",
+                          width: "45px",
+                          verticalAlign: "middle",
+                        }}
+                        alt=""
+                      />
                       {t("h2Block2")}
                     </h2>
                   </div>
@@ -474,6 +483,15 @@ function LanguageSwitcher() {
                 {/* Section Title Start */}
                 <div className="section-title">
                   <h2 className="text-anime-style-2" data-cursor="-opaque">
+                    <img
+                      src="/images/icon-service-3.svg"
+                      style={{
+                        marginRight: "10px",
+                        width: "45px",
+                        verticalAlign: "middle",
+                      }}
+                      alt=""
+                    />
                     {t("block3Text1")}
                   </h2>
                 </div>
@@ -717,6 +735,15 @@ function LanguageSwitcher() {
                     {/* Section Title Start */}
                     <div className="section-title">
                       <h2 className="text-anime-style-2" data-cursor="-opaque">
+                        <img
+                          src="/images/icon-testimonial-benefits-1.svg"
+                          style={{
+                            marginRight: "10px",
+                            width: "45px",
+                            verticalAlign: "middle",
+                          }}
+                          alt=""
+                        />{" "}
                         {t("block4Text1")}
                       </h2>
                     </div>
@@ -777,6 +804,15 @@ function LanguageSwitcher() {
                 {/* Section Title Start */}
                 <div className="section-title">
                   <h2 className="text-anime-style-2" data-cursor="-opaque">
+                    <img
+                      src="/images/icon-service-1.svg"
+                      style={{
+                        marginRight: "10px",
+                        width: "45px",
+                        verticalAlign: "middle",
+                      }}
+                      alt=""
+                    />{" "}
                     {t("block5Text1")}
                   </h2>
                 </div>
@@ -845,6 +881,15 @@ function LanguageSwitcher() {
                 {/* Section Title Start */}
                 <div className="section-title">
                   <h2 className="text-anime-style-2" data-cursor="-opaque">
+                    <img
+                      src="/images/icon-testimonial-benefits-2.svg"
+                      style={{
+                        marginRight: "10px",
+                        width: "45px",
+                        verticalAlign: "middle",
+                      }}
+                      alt=""
+                    />{" "}
                     {t("block6Text1")}
                   </h2>
                 </div>
@@ -920,6 +965,15 @@ function LanguageSwitcher() {
                 {/* Section Title Start */}
                 <div className="section-title">
                   <h2 className="text-anime-style-2" data-cursor="-opaque">
+                    <img
+                      src="/images/icon-location.svg"
+                      style={{
+                        marginRight: "10px",
+                        width: "45px",
+                        verticalAlign: "middle",
+                      }}
+                      alt=""
+                    />{" "}
                     {t("block7Text1")}
                   </h2>
                 </div>
@@ -988,6 +1042,15 @@ function LanguageSwitcher() {
                 {/* Section Title Start */}
                 <div className="section-title">
                   <h2 className="text-anime-style-2" data-cursor="-opaque">
+                    <img
+                      src="/images/icon-who-we-are-counter-4.svg"
+                      style={{
+                        marginRight: "10px",
+                        width: "45px",
+                        verticalAlign: "middle",
+                      }}
+                      alt=""
+                    />{" "}
                     {t("block8Text1")}
                   </h2>
                 </div>
