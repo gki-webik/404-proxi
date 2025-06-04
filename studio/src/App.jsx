@@ -24,7 +24,7 @@ const translations = {
     block2Text3: "По стране, региону и городу",
     block2Text4: "По типу подключения mobile WiFi",
     block2Text5: "По скорости, ротации и другим параметрам",
-    block3Text1: "Решения для бизнеса и профессионалов:",
+    block3Text1: "Решения для бизнеса и профессионалов",
     block3Text2: "Сбор данных, scraping и антидетект-работа",
     block3Text3: "Мультиаккаунтинг и SMM",
     block3Text4: "Аналитика и трекинг рекламы",
@@ -35,7 +35,7 @@ const translations = {
     block4Text2: "Зарабатывайте 25% с каждой оплаты приглашённых клиентов.",
     block4Text3:
       "Выплаты без задержек, прозрачная статистика, высокая конверсия.",
-    block5Text1: "Почему выбирают нас:",
+    block5Text1: "Почему выбирают нас",
     block5Text2: "IP с высоким уровнем доверия",
     block5Text3: "Настоящая мобильная репутация — без банов и капч",
     block5Text4: "Естественное поведение в сети",
@@ -71,7 +71,7 @@ const translations = {
     block2Text3: "By country, region, and city",
     block2Text4: "By connection type mobile WiFi",
     block2Text5: "By speed, rotation settings, and other parameters",
-    block3Text1: "Solutions for Businesses & Professionals:",
+    block3Text1: "Solutions for Businesses & Professionals",
     block3Text2: "Data scraping & anti-detect operations",
     block3Text3: "Multi-accounting & SMM",
     block3Text4: "Ad analytics & tracking",
@@ -82,7 +82,7 @@ const translations = {
     block4Text2: "Earn 25% from every payment made by referred clients.",
     block4Text3:
       "Instant payouts, transparent stats, and high conversion rates.",
-    block5Text1: "Why Choose Us:",
+    block5Text1: "Why Choose Us",
     block5Text2: "High-trust IPs",
     block5Text3: "True mobile reputation — no bans or captchas",
     block5Text4: "Natural online behavior",
@@ -94,7 +94,7 @@ const translations = {
     block6Text3:
       "The price per GB depends on region and volume — contact us for details.",
     block7Text1: "Maximum Geo-Coverage",
-    block7Text2: "We support all Tier 1, Tier 2, and Tier 3 countries:",
+    block7Text2: "We support all Tier 1, Tier 2, and Tier 3 countries",
     block7Text3: "USA, Canada, EU, Asia, Latin America, and more.",
     block7Text4:
       "Proxies available on request in over 100 countries worldwide.",
